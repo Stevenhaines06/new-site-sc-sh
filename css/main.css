@@ -336,6 +336,26 @@ header h2 {
   flex-flow: row wrap;
 }
 
+.profile-img-wrapper img {
+  width: 80%;
+  height: 80%;
+  max-width: 250px;
+  border-radius: 10%;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+  transition-behavior: normal;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  transition-delay: 0s;
+  transition-property: filter;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.profile-img-wrapper img:hover {
+  border-color: #37a987;
+}
+
 /* Portfolio */
 #work,
 #skills {
